@@ -6063,7 +6063,7 @@
     <Cell ss:StyleID="s124"><Data ss:Type="String">Lab code</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">correlatedLabcode</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">correlatedlabcode</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.lab.scalarDistribution.entity.labcode</Data></Cell>
@@ -6084,49 +6084,49 @@
     <Cell ss:StyleID="s124"><Data ss:Type="String">Medication code</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationReference</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationreference</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">reference</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Medication</Data></Cell>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.medication.medicationReference</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Medication reference</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationcorrelatedMedCategory</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationcorrelatedmedcategory</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String"> </Data></Cell>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.medication.correlatedMedications.entry.category</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Medication correlated medication category</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationcorrelatedMedcode</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationcorrelatedmedcode</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.medication.correlatedMedications.entry.medicationCodeableConcept</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Medication correlated medication code</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationcorrelatedMedref</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationcorrelatedmedref</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">reference</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Medication</Data></Cell>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.medication.correlatedMedications.entry.medicationReference</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Medication correlated medication reference</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationcorrelatedProcedure</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationcorrelatedprocedure</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.medication.correlatedProcedures.entry.code</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Medication correlated procedure</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationcorrelatedDiagnosis</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationcorrelateddiagnosis</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.medication.correlatedDiagnoses.entry.code</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Medication correlated phenotype</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationcorrelatedPhenotype</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">medicationcorrelatedphenotype</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.medication.correlatedPhenotypes.entry.code</Data></Cell>
@@ -6140,35 +6140,35 @@
     <Cell ss:StyleID="s124"><Data ss:Type="String">Diagnosis code</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">diagnosiscorrelatedMedCategory</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">diagnosiscorrelatedmedcategory</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String"> </Data></Cell>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.diagnosis.correlatedMedications.entry.category</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Diagnosis correlated medication category</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">diagnosiscorrelatedMedcode</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">diagnosiscorrelatedmedcode</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.diagnosis.correlatedMedications.entry.medicationCodeableConcept</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Diagnosis correlated medication code</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">diagnosiscorrelatedMedref</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">diagnosiscorrelatedmedref</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">reference</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Medication</Data></Cell>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.diagnosis.correlatedMedications.entry.medicationReference</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Diagnosis correlated medication reference</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">diagnosiscorrelatedProcedure</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">diagnosiscorrelatedprocedure</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.diagnosis.correlatedProcedures.entry.code</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Diagnosis correlated procedure</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">diagnosiscorrelatedPhenotype</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">diagnosiscorrelatedphenotype</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.diagnosis.correlatedPhenotypes.entry.code</Data></Cell>
@@ -6182,35 +6182,35 @@
     <Cell ss:StyleID="s124"><Data ss:Type="String">Procedure  code</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">procedurecorrelatedMedCategory</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">procedurecorrelatedmedcategory</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String"> </Data></Cell>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.procedure.correlatedMedications.entry.category</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Procedure correlated medication category</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">procedurecorrelatedMedcode</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">procedurecorrelatedmedcode</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.procedure.correlatedMedications.entry.medicationCodeableConcept</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Procedure correlated medication code</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">procedurecorrelatedMedref</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">procedurecorrelatedmedref</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">reference</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Medication</Data></Cell>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.procedure.correlatedMedications.entry.medicationReference</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Procedure correlated medication reference</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">procedurecorrelatedProcedure</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">procedurecorrelatedprocedure</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.procedure.correlatedProcedures.entry.code</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Procedure correlated procedure</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">procedurecorrelatedPhenotype</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">procedurecorrelatedphenotype</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.procedure.correlatedPhenotypes.entry.code</Data></Cell>
@@ -6224,35 +6224,35 @@
     <Cell ss:StyleID="s124"><Data ss:Type="String">Phenotype  code</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">phenotypecorrelatedMedCategory</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">phenotypecorrelatedmedcategory</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String"> </Data></Cell>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.hpo.correlatedMedications.entry.category</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Phenotype  correlated medication category</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">phenotypecorrelatedMedcode</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">phenotypecorrelatedmedcode</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.hpo.correlatedMedications.entry.medicationCodeableConcept</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Phenotype  correlated medication code</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">phenotypecorrelatedMedref</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">phenotypecorrelatedmedref</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">reference</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Medication</Data></Cell>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.hpo.correlatedMedications.entry.medicationReference</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Phenotype  correlated medication reference</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">phenotypecorrelatedProcedure</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">phenotypecorrelatedprocedure</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.hpo.correlatedProcedures.entry.code</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Phenotype  correlated procedure</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">phenotypecorrelatedPhenotype</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">phenotypecorrelatedphenotype</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.hpo.correlatedPhenotypes.entry.code</Data></Cell>
