@@ -3,7 +3,7 @@
   <Author>Grahame</Author>
   <LastAuthor>Microsoft Office User</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
-  <LastSaved>2019-02-14T00:20:27Z</LastSaved>
+  <LastSaved>2019-02-14T14:09:57Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
@@ -2195,7 +2195,7 @@
     <Cell ss:Index="5"><Data ss:Type="String">CodeableConcept</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">MedicationdispenseCategory</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:Index="14"><Data ss:Type="String">Type of medication dispense</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s68"><Data ss:Type="String">Indicates the type of medication dispense (for example, where the medication is expected to be consumed or administered (i.e. inpatient or outpatient)).</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Indicates the type of medication dispense (for example, where the medication is expected to be consumed or administered (i.e. inpatient or outpatient))</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s220"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s221"><Data ss:Type="String">The category can be used to include where the medication is expected to be consumed or other types of dispenses.  Invariants can be used to bind to different value sets when profiling to bind.</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s221"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2783,13 +2783,13 @@
     <Cell ss:Index="5"><Data ss:Type="String">CodeableConcept</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">MedicationdispenseCategory</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:Index="14"><Data ss:Type="String">Type of medication dispense</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Indicates the type of medication dispense (for example, where the medication is expected to be consumed or administered (i.e. inpatient or outpatient)).</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Indicates the type of medication dispense (for example, where the medication is expected to be consumed or administered (i.e. inpatient or outpatient))</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:Index="17"><Data ss:Type="String">The category can be used to include where the medication is expected to be consumed or other types of dispenses.  Invariants can be used to bind to different value sets when profiling to bind.</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="16" ss:StyleID="s194">
     <Cell ss:StyleID="s185"><Data ss:Type="String">ClinicalProfile.medication.correlatedMedications.entry.medication[x]</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s186"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s186"><Data ss:Type="String">1..*</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s186"><Data ss:Type="String">1..1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s186"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s186"><Data ss:Type="String">CodeableConcept|Reference(Medication)</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s186"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5504,7 +5504,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>10</TopRowBottomPane>
+   <TopRowBottomPane>49</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -6000,11 +6000,11 @@
   <Names>
    <NamedRange ss:Hidden="1" ss:Name="_FilterDatabase" ss:RefersTo="=Search!R1C1:R1C5"/>
   </Names>
-  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="42" ss:StyleID="s120" x:FullColumns="1" x:FullRows="1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="36" ss:StyleID="s120" x:FullColumns="1" x:FullRows="1">
    <Column ss:AutoFitWidth="0" ss:StyleID="s120" ss:Width="184.0"/>
    <Column ss:AutoFitWidth="0" ss:StyleID="s120" ss:Width="57.0"/>
    <Column ss:AutoFitWidth="0" ss:StyleID="s120" ss:Width="109.0"/>
-   <Column ss:AutoFitWidth="0" ss:StyleID="s120" ss:Width="363.0"/>
+   <Column ss:AutoFitWidth="0" ss:StyleID="s120" ss:Width="498.0"/>
    <Column ss:AutoFitWidth="0" ss:StyleID="s120" ss:Width="382.0"/>
    <Row ss:AutoFitHeight="0" ss:Height="32" ss:StyleID="s121">
     <Cell ss:StyleID="s112"><Data ss:Type="String">Name</Data><Comment ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000" html:Face="Tahoma" html:Size="10" x:Family="Swiss">Unique name for search parameter - required, lower-case, dash-delimited string    </Font></ss:Data></Comment><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6147,20 +6147,6 @@
     <Cell ss:StyleID="s124"><Data ss:Type="String">Diagnosis correlated medication category</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">diagnosiscorrelatedmedcode</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.diagnosis.correlatedMedications.entry.medicationCodeableConcept</Data></Cell>
-    <Cell ss:StyleID="s124"><Data ss:Type="String">Diagnosis correlated medication code</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">diagnosiscorrelatedmedref</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">reference</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Medication</Data></Cell>
-    <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.diagnosis.correlatedMedications.entry.medicationReference</Data></Cell>
-    <Cell ss:StyleID="s124"><Data ss:Type="String">Diagnosis correlated medication reference</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s122"><Data ss:Type="String">diagnosiscorrelatedprocedure</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
@@ -6189,20 +6175,6 @@
     <Cell ss:StyleID="s124"><Data ss:Type="String">Procedure correlated medication category</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">procedurecorrelatedmedcode</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.procedure.correlatedMedications.entry.medicationCodeableConcept</Data></Cell>
-    <Cell ss:StyleID="s124"><Data ss:Type="String">Procedure correlated medication code</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">procedurecorrelatedmedref</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">reference</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Medication</Data></Cell>
-    <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.procedure.correlatedMedications.entry.medicationReference</Data></Cell>
-    <Cell ss:StyleID="s124"><Data ss:Type="String">Procedure correlated medication reference</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s122"><Data ss:Type="String">procedurecorrelatedprocedure</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
     <Cell ss:StyleID="s91"/>
@@ -6229,20 +6201,6 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String"> </Data></Cell>
     <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.hpo.correlatedMedications.entry.category</Data></Cell>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Phenotype  correlated medication category</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">phenotypecorrelatedmedcode</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">token</Data></Cell>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.hpo.correlatedMedications.entry.medicationCodeableConcept</Data></Cell>
-    <Cell ss:StyleID="s124"><Data ss:Type="String">Phenotype  correlated medication code</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s122"><Data ss:Type="String">phenotypecorrelatedmedref</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">reference</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Medication</Data></Cell>
-    <Cell ss:StyleID="s123"><Data ss:Type="String">ClinicalProfile.hpo.correlatedMedications.entry.medicationReference</Data></Cell>
-    <Cell ss:StyleID="s124"><Data ss:Type="String">Phenotype  correlated medication reference</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s122"><Data ss:Type="String">phenotypecorrelatedprocedure</Data></Cell>
